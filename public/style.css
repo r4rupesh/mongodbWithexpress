@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.chat,.edit-div,.new-container{
+    background-color: aliceblue;
+    padding: 16px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.message{
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 16px;
+    border-radius: 16px;
+
+
+}
+.new-chat{
+    background-color: rgba(9, 126, 243, 0.534); ;
+    padding: 16px;
+    border-radius:16px ;
+    cursor: pointer;
+    font-size: 14px;
+
+    &:hover{
+        background-color:dodgerblue;
+    }
+}
+.edit,.submit,.send{
+    padding: 6px;
+    background-color:rgba(9, 126, 243, 0.534);;
+    border:2px  solid white;
+    border-radius: 6px;
+    float: right;
+    margin-top: 5px;
+    
+
+    &:hover{
+        background-color:dodgerblue;
+        cursor: pointer; 
+
+    }
+    &:active{
+        border-left: 12px;
+    }
+}
+
+.delete{
+    padding: 6px;
+    background-color:rgba(9, 126, 243, 0.534);;
+    border:2px  solid white;
+    border-radius: 6px;
+    float:left;
+    margin-top: 5px;
+    
+
+    &:hover{
+        background-color:dodgerblue;
+        cursor: pointer; 
+
+    }
+    &:active{
+        border-left: 12px;
+    }
+}
+
+
+.submit{
+    float:none;
+}
+.send{
+    float: none;
+}
+textarea,input{
+    border-radius: 12px;
+    outline-color: dodgerblue;
+    border-color: dodgerblue;
+    color: blueviolet;
+
+}
+h2{
+    color:darkblue;
+    font-style: bold;
+}
+p{
+    color: rgba(0, 0, 139, 0.749)
+}
